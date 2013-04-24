@@ -1,0 +1,202 @@
+body {
+		background-image:url('../images/gb.gif');
+	background-repeat:repeat-x;
+	font-family: "Lucida Sans", Tahoma, Verdana, sans-serif;
+	color:#000;
+	font-size: 12px;
+	line-height: 2;
+
+}
+
+	/*div, li {
+		border: 1px solid red;
+	}
+*/
+
+/*
+font-family: 'Cantata One', serif;
+font-family: 'Esteban', serif;
+*/
+.red {
+	border:1px solid red;
+
+}
+#wrap_head, #wrap {
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+#header img {
+	padding-top: 23px;
+	float:left;
+
+}
+
+/* NAVIGACIJA */
+ul#menu {
+	list-style-type:none;
+	float:right;
+	margin: 0;
+	/*padding: 20px 20px 0px 0px; */
+}
+ul#menu li {
+
+	width:110px;
+		
+	float:left;
+	font-family: 'Cantata One', serif;
+	text-transform: lowercase;
+	font-size:18px;
+}
+
+
+ul#menu li a {
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	height:30px;
+	padding: 30px 10px;
+
+}
+
+ul#menu li a:hover {
+	background-color: #222;
+	color: #666;
+}
+
+ul#menu li a h4 {
+	color:#666;
+}
+
+ul#menu li h4 {
+	line-height:10px;
+	margin-top: 0px;
+	font-family: 'Esteban', serif;
+	text-transform: uppercase;
+	font-size:10px;
+}
+
+#uv_text {
+	
+	font-size:150%;
+
+	line-height: 2.0;	
+}
+#intro {
+	margin-top: 50px;
+}
+
+#naslov {
+	margin-right:0;
+}
+h1, h2 {
+
+	font-family: 'Cantata One', serif;
+	font-weight:400;
+	margin:0;
+	padding: 0;
+	line-height:1.1;
+}
+
+h1 {
+
+	color: #666666;
+	text-transform: lowercase;
+	font-size: 34px;
+}
+
+h2 {
+	font-size: 62px;
+	color:#E24706;
+	text-transform: lowercase;
+
+}
+
+h2#film {
+  text-transform: uppercase;
+}
+
+/*** CAROUSEL ***/
+
+.image_carousel {
+	padding: 15px 0 15px 40px;
+}
+.image_carousel img {
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 9px;
+	margin: 7px;
+	display: block;
+	float: left;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+/**
+ * NAS LIGHTBOX
+ */
+
+.lightbox {
+	
+	display:block; /* ZLIMO DA MOZEMO DA MENJAMO I TOP I BOOTOM */
+	margin:10px; /* ZELIMO MALO PRORED IZMEDJU SLIKA **/
+	float:left; /* ALI DA IPAK BUDU JEDNO PORED DRUGOG*/
+	border: 1px solid #000; /* i mali border */
+	padding: 10px; /* ali ne slepljen uz sliku */
+}
+
+/**
+ * PRAVIMO KLASU ZA KONTEJNER - TREBA DA JE POLUPROVIDAN I DA JE ABSOLUTE I DA SE RASIRI PREKO CELE STRANE
+ */
+
+.kontejner {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6); /* CRNA POZADINA SA 50% transparencije */
+	width:100%;
+	height:100%;
+	text-align:center;
+	z-index: 100;
+} 
+
+/**
+ * UNUTRASNJI KONTEJNER U KOME CEMO SMESTITI KONTROLE
+ */
+ 
+
+.in_kontejner { 
+	/*background-color:#000; *//* PROMENITE OVU BOJU AKO ZELITE DA VIDITE STA JE DIV A STA SLIKA */
+	position: absolute;
+	/*background-color: #000;*/
+  top:13%;
+	left:37%;
+	display:block;
+	background-color: #000;
+	padding-bottom: 20px;
+	/*width:550px;
+	height:440px;*/
+	overflow: auto;
+
+	text-align: center;
+	/*padding: 15px;*/ /* MALO PADDINGA ZA ZATVORI */
+
+}
+.in_kontejner a {
+	
+	
+	text-decoration: none; /*NECEMO UNDERLINE*/
+}
+
+#zatvori{
+	display:block;
+	position: absolute;
+	top:0px;
+	left:5px;
+}
+
+h6#naslov1 {
+  margin-left: 10px;
+  margin-bottom: -10px;
+  padding: 0px;
+}

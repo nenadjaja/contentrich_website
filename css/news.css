@@ -1,0 +1,84 @@
+div.news_side {
+	padding-left: 20px;
+	overflow: hidden;
+	letter-spacing: 1.5px;
+}
+
+div.news_side#top {
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+@font-face {
+	font-family: 'BonvenoCF';
+	src: url('../css/fonts/BonvenoCF.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Melbourne';
+	src: url('../css/fonts/melbourne_reg-webfontt.eot');
+	src: url('../css/fonts/melbourne_reg-webfont.eot') format('embedded-opentype'), url('../css/fonts/melbourne_reg-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: url('../css/fonts/bebasneue-webfont.eot');
+	src: url('../css/fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/bebasneue-webfont.woff') format('woff'), url('../css/fonts/bebasneue-webfont.ttf') format('truetype'), url('../css/fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.news_side h3 {
+	/*border-left: 2px solid #DDD;*/
+	/*padding: 5px;*/
+	margin: 0 20px;
+	margin-bottom: -10px;
+	text-align: left;
+	color: #C88;
+	font-size: 26px;
+}
+/*h3 #top {
+	margin-top: 50px;
+	/*padding-top: 30px;
+}*/
+.news_side p {
+	font-family: Melbourne, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #CCC;
+	/*padding-top: 5px;*/
+	text-align: left;
+	margin: 0 22px;
+	font-weight: normal;
+}
+
+#pozivnica {
+  margin: 20px;
+  padding: 10px;
+}
+.portreti {
+  margin: 20px;
+  padding: 10px;
+}
+.running-photo {
+  margin-left: 20px;
+  padding-left:10px;
+}
+.news-header {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 32px;
+}
+h1#production {
+  font-size: 30px;
+  text-align: center;
+  color: #CCC;
+}
+
+
+
+
+

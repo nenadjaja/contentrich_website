@@ -1,0 +1,10 @@
+[03-Aug-2012 15:08:35] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/nadamaca/public_html/mailer.php on line 8
+[03-Aug-2012 15:08:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nadamaca/public_html/mailer.php:8) in /home/nadamaca/public_html/mailer.php on line 19
+[03-Aug-2012 15:12:50] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/nadamaca/public_html/mailer.php on line 8
+[03-Aug-2012 15:12:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nadamaca/public_html/mailer.php:8) in /home/nadamaca/public_html/mailer.php on line 19
+[03-Aug-2012 15:16:14] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/nadamaca/public_html/mailer.php on line 8
+[03-Aug-2012 15:16:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nadamaca/public_html/mailer.php:8) in /home/nadamaca/public_html/mailer.php on line 19
+[03-Aug-2012 16:35:17] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/nadamaca/public_html/mailer.php on line 8
+[03-Aug-2012 16:35:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nadamaca/public_html/mailer.php:8) in /home/nadamaca/public_html/mailer.php on line 19
+[03-Aug-2012 16:35:35] PHP Warning:  filter_var() expects parameter 2 to be long, string given in /home/nadamaca/public_html/mailer.php on line 8
+[03-Aug-2012 16:35:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nadamaca/public_html/mailer.php:8) in /home/nadamaca/public_html/mailer.php on line 19

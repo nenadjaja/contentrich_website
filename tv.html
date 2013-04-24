@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<head>
+	<title>NADA MACANKOVIĆ</title>
+
+
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	
+	<link rel="stylesheet" href="css/style3.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'> -->
+
+
+	<!--  <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" type="text/css"> --> 
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+
+	
+
+<script type="text/javascript" src="js/jquery.carouFredSel-5.6.1.js"></script>
+<!-- <script type="text/javascript" src="jquery.js"></script> -->
+
+	
+	<!-- // <script src="js/jquery.lightbox-0.5.min.js" type="text/javascript"></script> -->
+
+</head>
+
+<body>
+
+
+
+<!-- ovo mi je ona nasa forma -->
+
+<div id='wrap'class="row-fluid">
+<div id='navigacija' class='span3'>
+
+
+<div id='logo'><img src="images/logo1.jpg"/>
+	</div>
+        <nav>
+          <ul>
+            <li><a id='current' href="index.html">HOME</a></li>
+            <li><a id='news-new' href="news.html">NEWS</a></li>
+            <li><a id='gal' href="#">GALLERY</a>
+              <ul id='ddmenu' >
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+                <li><a href="portraits.html">PORTRAITS</a></li>
+              </ul>
+            </li>
+            <li><a href="#">VIDEOS</a>
+              <ul id='ddmenu1' >
+                <li><a href="film.html">FILM</a></li>
+                <li><a href="tv.html">TV</a></li>
+            <!--<li><a href="new.html">NEW</a></li>-->       
+              </ul>
+            </li>
+            <li><a href="about.html">BIOGRAPHY</a></li>           
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div> <!--/#navigacija1 .span3 -->
+
+<section id="kima" class="span9">
+	<div class='row-fluid'>	
+<div class='span12'>
+	<div><h4>TV</h4></div>
+				
+				<!-- NAPRAVILI SMO MALE SLIKE (tmb) I LINKOVALI KA VELIKIM. STAVILI SMO LINKOVIMA KLASU 'lightbox' KAKO BISMO MOGLI DA IH SELEKTUJEMO IZ jQuery-ja -->
+				<div class="view view-first ">
+				<a href="http://player.vimeo.com/video/46318082?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp" class="saki">  
+     <img src="images/thumbs/video1.jpg" />  
+     <div class="mask">  
+     <h2>Ljubav,&nbsp;&nbsp; navika, &nbsp;&nbsp;panika</h2>  
+     <p>TV serie </p>
+     <p id='sal' href="#" class="info"><img src='images/play1.png'/></p>
+       
+          
+     </div>  </a>
+</div>
+				
+			<div class="view view-first "> 
+			<a href="http://player.vimeo.com/video/46318391?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1" class="saki"> 
+     <img src="images/thumbs/video4.jpg" />  
+     <div class="mask"> 
+
+
+
+<h2>Pozoriste &nbsp;&nbsp;u &nbsp;&nbsp;kuci</h2>  
+     <p>TV serie</p>
+      <p id='sal' href="#" class="info"><img src='images/play1.png'/></p>
+     </div> 
+     </a> 
+</div>
+				
+				
+<div class="view view-first "> 
+      <a href="http://www.youtube.com/v/Kp7O6TIZ8DA?hl=en_US&amp;version=3&amp;rel=0&amp;showinfo=0&amp;color=white" class="saki"> 
+     <img src="images/thumbs/video9.jpg" />  
+     <div class="mask"> 
+<h2>Iz &nbsp;&nbsp;iksa&nbsp;&nbsp; u &nbsp;&nbsp;iks </h2>  
+     <p>TV serie</p>
+      <p id='sal' href="#" class="info"><img src='images/play1.png'/></p>
+     </div> 
+     </a> 
+</div>
+
+<div class="view view-first ">
+       <a href="http://www.youtube.com/v/9Qzd_ffRdzs?hl=en_US&amp;version=3&amp;rel=0&amp;showinfo=0&amp;color=white" class="saki">
+     <img src="images/thumbs/video10.jpg" />  
+     <div class="mask">  
+     <h2 id="film">KO&#352;ARKA&#352;I</h2>  
+     <p>Movie </p>
+     <p id='sal' href="#" class="info"><img src='images/play1.png'/></p>
+      </div>  
+    </a>
+</div>
+
+
+<script type="text/javascript">
+	$(document).ready (function () {
+		 	
+		 	$('.saki').on('click', function (e) {
+		 		e.preventDefault(); 
+		 		var link = $(this).attr('href');
+				$('body').prepend('<div class="kontejner"><div class="in_kontejner"><a href="#" id="zatvori"><img src="images/close.png" />  </a><iframe src="' +   link    + '"  width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>').hide().fadeIn('slow');
+
+
+					$('.kontejner a').on('click', function (e) {
+
+						e.preventDefault; 
+
+						$('.kontejner').fadeOut('slow', function() {
+							$('.kontejner').remove(); 
+						}); 
+
+					});
+
+		 	});
+
+
+
+
+	});	
+</script>
+
+
+	
+
+			</div>
+	</div>
+</div>
+
+</div>
+
+</body>
+	</html>
