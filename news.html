@@ -101,13 +101,13 @@
             </div> <!-- /.view view-first -->
         
             <script type="text/javascript">
-              $(document).ready (function () {
+              $(document).ready (function() {
                 $('.saki').on('click', function (e) {
                   e.preventDefault(); 
                   var link = $(this).attr('href');
-                  $('body').prepend('<div class="kontejner"><div class="in_kontejner"><a href="#" id="zatvori"><img src="images/close.png" />  </a><iframe src="' +   
-                    link    + '"  width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>').hide().fadeIn('slow');
-                  $('.kontejner a').on('click', function (e) {
+                  $('body').prepend('<div class="kontejner"><div class="in_kontejner"><a href="#" id="zatvori"><img src="images/close.png" />  </a><iframe src="' 
+                                    + link + '"  width="600" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>').hide().fadeIn('slow');
+                  $('.kontejner a').on('click', function(e) {
                     e.preventDefault; 
                     $('.kontejner').fadeOut('slow', function() {
                       $('.kontejner').remove(); 
