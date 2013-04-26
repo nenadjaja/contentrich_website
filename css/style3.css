@@ -103,6 +103,14 @@ body {
   background-color: #000;
 }
 
+#navigacija2 {
+  margin-top:50px;
+  margin-bottom:50px;
+  height: 830px;
+  border-right: 1px solid #fff;
+  background-color: #000;
+}
+
 #kima {
   margin-top:50px;
   padding-left: 50px;
@@ -394,7 +402,7 @@ textarea {
 
 }
 
-/*about strana*/
+/* about page */
 .about-text h3 {
   font-size: 17px;
  /* color: #C88; */
@@ -593,46 +601,28 @@ font-weight: normal;
 }
 .mask h2{padding-top: 20px;}
 
-
-
-
-/*
-div{
-  border: 2px solid red;
-}*/
-
-
-.forma{
+.forma {
   padding-top: 7px;
 }
 
-label{
+label {
   color: #444;
 }
 
-#kontakt-forma{
+#kontakt-forma {
   padding-top: 20px;
 }
 #home a{
-/* border-bottom: 2px solid #fff;*/
-color: #7f7f7f;
-/*font-family: "Melbourne Bold";*/
-font-family: "Bebas";
-font-size: 12px;
-
-cursor: default;
+  /* border-bottom: 2px solid #fff;*/
+  color: #7f7f7f;
+  /*font-family: "Melbourne Bold";*/
+  font-family: "Bebas";
+  font-size: 12px;
+  cursor: default;
 }
-#home{
+#home {
   line-height: 1.2;
-
 }
-
-#home
-{/*position: absolute;*/
-
-
-}
-
 
 .gal a {
   padding: 10px;
